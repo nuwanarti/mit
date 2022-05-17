@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mit</string>
+    <string name="mh_col1">Date</string>
+    <string name="mh_col2">Hospital</string>
+    <string name="mh_col3">Doctor</string>
+    <string name="mh_col4">Details</string>
+
+    <string name="p_col1">Name</string>
+    <string name="p_col2">Usage</string>
+    <string name="p_col3">Dose</string>
+    <string name="p_col4">Reminder</string>
+</resources>

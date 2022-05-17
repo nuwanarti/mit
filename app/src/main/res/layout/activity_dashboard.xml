@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+
+    tools:context=".Dashboard">
+
+    <View
+        android:id="@+id/appStatusBar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="607dp"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/appStatusBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/usr" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/appStatusBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="363dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@drawable/hambmenu" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="165dp"
+        android:layout_height="195dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="355dp"
+        android:background="#FFFFFF" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="165dp"
+        android:layout_height="195dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="355dp"
+        android:background="#FFFFFF" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="165dp"
+        android:layout_height="195dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="106dp"
+        android:background="#FFF6F6" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="165dp"
+        android:layout_height="195dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="106dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/view3"
+        android:layout_alignBottom="@+id/view3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="74dp"
+        android:text="Medical History"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/view3"
+        android:layout_alignBottom="@+id/view3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:text="View your medical history" />
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignTop="@+id/view4"
+        android:layout_alignBottom="@+id/view4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="73dp"
+        android:text="Appointments"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view4"
+        android:layout_alignBottom="@+id/view4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:text="View scheduled appointments and reminders" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignTop="@+id/view5"
+        android:layout_alignBottom="@+id/view5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="70dp"
+        android:text="Prescriptions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view5"
+        android:layout_alignBottom="@+id/view5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="26dp"
+        android:text="View prescriptions and reminders" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignTop="@+id/view6"
+        android:layout_alignBottom="@+id/view6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="71dp"
+        android:text="Institutions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/view6"
+        android:layout_alignBottom="@+id/view6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="10dp"
+        android:text="View institutions near you that support this application" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="465dp"
+        android:background="#A5E4EC" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="465dp"
+        android:background="#EDE7B0" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="215dp"
+        android:background="#FDC2C2" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="215dp"
+        android:background="#DDF1C6" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/view7"
+        android:layout_alignBottom="@+id/view7"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/medhistory" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/view10"
+        android:layout_alignBottom="@+id/view10"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/locations" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/view9"
+        android:layout_alignBottom="@+id/view9"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="17dp"
+        app:srcCompat="@drawable/pills2" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/view8"
+        android:layout_alignBottom="@+id/view8"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/appts" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/appStatusBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/logo2" />
+
+</RelativeLayout>

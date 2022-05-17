@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169068312131",
+    "project_id": "charged-ground-272702",
+    "storage_bucket": "charged-ground-272702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169068312131:android:1930114ff0b41a898b46f6",
+        "android_client_info": {
+          "package_name": "com.example.medid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169068312131-0ogs3atpq5rm32e8jhf9ekkkk3r6tknl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaPQaZWquWznPDxpWagrSpJLUyLhbKdDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169068312131-0ogs3atpq5rm32e8jhf9ekkkk3r6tknl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
